@@ -6,10 +6,10 @@ import cuentas.CCuenta;
 public class Main {
 
     public static void main(String[] args) {
-        operativa_cuenta();
+        operativa_cuenta(0.0);
     }
 
-    public static void operativa_cuenta() {
+    public static void operativa_cuenta(java.lang.Float cantidad) {
         CCuenta cuenta1;
         double saldoActual;
 
