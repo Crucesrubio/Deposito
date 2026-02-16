@@ -1,3 +1,8 @@
+package cuentas;
+
+
+import cuentas.CCuenta;
+
 public class Main {
 
     public static void main(String[] args) {
