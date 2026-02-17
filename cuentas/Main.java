@@ -3,12 +3,22 @@ package cuentas;
 
 import cuentas.CCuenta;
 
+/**
+ * clase que contiene metodo que hece referencia a la clase CCuenta y
+ * gestiona las operaciones de una cuaenta bancaria.
+ * @author Jose Carlos Cruz
+ */
 public class Main {
 
     public static void main(String[] args) {
-        operativa_cuenta(0.0);
+        operativa_cuenta(0.0f);
     }
-
+    
+    /**
+     * metodo que crea dichas operaciones. Crear una nueva cuenta,
+     * ingresar y retirar el dinero.
+     * @param cantidad 
+     */
     public static void operativa_cuenta(java.lang.Float cantidad) {
         CCuenta cuenta1;
         double saldoActual;
